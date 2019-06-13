@@ -81,16 +81,6 @@ strong {
     font-family: "Rounded"
 }
 
-.buttons {
-    padding-top: 3%;
-    padding-left: 7.5%
-}
-
-.otherbuttons {
-    top: -10%;
-    padding-left: 7.5%
-}
-
 .dark {
     background: linear-gradient(90deg, #161719, #262626);
     color: #fff
@@ -110,24 +100,22 @@ a:hover {
     color: #57A5F8
 }
 
-img {
-    position: relative;
+.logo {
     width: 150px;
     height: 150px;
-    right: 2.5%
 }
 
-.hero-body {
-    justify-content: center
+.columns {
+    max-width: 100%;
 }
 
-.container {
-    padding-left: 7.5%;
-    padding-top: 7.5%;
+.pagecontainer {
+    margin: auto;
+    max-width: 90%;
+    padding-top: 150px;
 }
 
-.phones {
-    right: scale(90%, 100%vh);
-    top: 20%
-
+#promo-button {
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
