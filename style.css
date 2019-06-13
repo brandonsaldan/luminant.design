@@ -127,6 +127,7 @@ img {
 }
 
 .phones {
-    right: 90%;
+    right: scale(90%, 100%vh);
     top: 20%
+
 }
