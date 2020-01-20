@@ -1,3 +1,20 @@
+@media (prefers-color-scheme: dark) {
+  body{
+  background-color: #2D2D2D;
+  }
+  .title{
+    color: #d8d7e5;
+  }
+  a:link{
+    color: #a1a0aa;
+  }
+  a:visited{
+    color: inherit;
+  }
+  #promo-button{
+    color: #74747c;
+  }
+}
 @font-face {
     font-family: regular;
     src: url('https://assets.dynastic.co/fonts/sfcd_light.ttf');
