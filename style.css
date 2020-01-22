@@ -1,4 +1,7 @@
 @media (prefers-color-scheme: dark) {
+   html{
+background-color: #2D2D2D;
+  }
   body{
   background-color: #2D2D2D;
   }
