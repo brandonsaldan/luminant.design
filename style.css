@@ -1,23 +1,29 @@
 @media (prefers-color-scheme: dark) {
-   html{
-background-color: #2D2D2D;
-  }
-  body{
-  background-color: #2D2D2D;
-  }
-  .title{
-    color: #d8d7e5;
-  }
-  a:link{
-    color: #a1a0aa;
-  }
-  a:visited{
-    color: inherit;
-  }
-  #promo-button{
-    color: #74747c;
-  }
+    html {
+        background-color: #2D2D2D;
+    }
+    body {
+        background-color: #2D2D2D;
+    }
+    .title {
+        color: #d8d7e5;
+    }
+    a:link {
+        color: #a1a0aa;
+    }
+    a:visited {
+        color: inherit;
+    }
+    #promo-button {
+        color: #74747c;
+    }
+
+    .button {
+        background: linear-gradient(90deg, #161719, #262626);
+        color: #fff;
+    }
 }
+
 @font-face {
     font-family: regular;
     src: url('https://assets.dynastic.co/fonts/sfcd_light.ttf');
@@ -27,7 +33,6 @@ background-color: #2D2D2D;
     font-family: rounded;
     src: url('https://assets.dynastic.co/fonts/sfcr_regular.ttf');
 }
-
 
 body {
     font-family: "Regular";
@@ -48,16 +53,13 @@ body {
     animation: Gradient 15s ease infinite;
 }
 
-
 @-webkit-keyframes Gradient {
     0% {
         background-position: 0% 50%
     }
-
     50% {
         background-position: 100% 50%
     }
-
     100% {
         background-position: 0% 50%
     }
@@ -67,11 +69,9 @@ body {
     0% {
         background-position: 0% 50%
     }
-
     50% {
         background-position: 100% 50%
     }
-
     100% {
         background-position: 0% 50%
     }
@@ -81,11 +81,9 @@ body {
     0% {
         background-position: 0% 50%
     }
-
     50% {
         background-position: 100% 50%
     }
-
     100% {
         background-position: 0% 50%
     }
@@ -101,16 +99,9 @@ strong {
     font-family: "Rounded"
 }
 
-.dark {
-    background: linear-gradient(90deg, #161719, #262626);
-    color: #fff
-}
-
 .dark:hover {
     color: #fff
 }
-
-
 
 a {
     color: #363636
