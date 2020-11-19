@@ -27,6 +27,25 @@ body {
     animation: Gradient 15s ease infinite;
 }
 
+.notice {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    color:#ffffff;
+    background: #f5f0f0;
+    background-size: 400% 400%;;
+}
+
+.noticetext {
+    font-family: "Regular";
+    font-weight: 10px;
+    color: #363636;
+    text-align:center;
+    padding-top: 17px;
+}
+
 @-webkit-keyframes Gradient {
     0% {
         background-position: 0% 50%
